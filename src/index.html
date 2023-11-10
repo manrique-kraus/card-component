@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Component</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Montserrat&family=Pixelify+Sans&family=Rubik:wght@300;400;500;600&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Hanken+Grotesk&family=Montserrat&family=Pixelify+Sans&family=Rubik:wght@300;400;500;600&family=Secular+One&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <section class="card">
+
+            <picture>
+                <source srcset="./images/image-product-mobile.jpg" media="(max-width: 600px)">
+
+                <img class="image" src="./images/image-product-desktop.jpg" alt="Scent image">
+            </picture>
+
+            <div class="information">
+                <h3 class="product">Perfume</h3>
+                <h2 class="name-product">Gabrielle Essence Eau De Parfum</h2>
+                <p class="description">A floral, solar and voluptuous interpretation composed by Oliver Polge,
+                    Perfumer-Creator for the House of CHANEL.</p>
+
+                <div class="prices">
+                    <h2 class="sale-price">$149.99</h2>
+                    <p class="real-price">$169.99</p>
+                </div>
+
+                <button class="button">
+                    <img src="./images/icon-cart.svg" alt="Cart icon">
+                    <p class="text-button">Add to Cart</p>
+                </button>
+
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>

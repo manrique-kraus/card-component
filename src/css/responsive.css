@@ -1,0 +1,70 @@
+@media (max-width: 600px) {
+
+    .image {
+        position: relative;
+        margin-left: -376px;
+        margin-top: -120px;
+        min-width: 365px;
+        height: 350px;
+        border-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
+    }
+
+    .information {
+        position: relative;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin-left: 25px;
+        margin-top: 145px;
+        width: 364px;
+        height: 480px;
+    }
+
+    .product {
+        padding-top: 19px;
+        font-size: 22px;
+    }
+
+    .name-product {
+        width: 300px;
+        font-size: 40px;
+    }
+
+    .description {
+        width: 300px;
+        height: 100px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .sale-price {
+        font-size: 47px;
+        margin-top: 50px;
+    }
+
+    .real-price {
+        font-size: 19px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .button {
+        margin-top: 50px;
+        height: 65px;
+        width: 300px;
+    }
+
+    .button img {
+        width: 20px;
+        height: 20px;
+        margin-left: 80px;
+    }
+
+    .text-button {
+        font-size: 18px;
+    }
+
+}
